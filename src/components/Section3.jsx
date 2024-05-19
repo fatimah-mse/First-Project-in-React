@@ -1,7 +1,7 @@
 function Section3 () {
     return (
         <>
-        <section class="third">
+        <section className="third">
             <p>Quote of the day: live life</p>
         </section>
         </>
