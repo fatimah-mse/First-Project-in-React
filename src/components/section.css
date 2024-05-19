@@ -1,0 +1,81 @@
+/* =========== Sections =========== */
+.container {
+    padding: 60px 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container div {
+    margin: 0 25px;
+}
+.container .desc {
+    width: 68%;
+}
+.container .desc h1{
+    font-family:'Lucida Sans';
+    word-spacing: 4px;
+    font-weight: lighter;
+    font-size: 35px;
+}
+.container .desc p{
+    margin-top: 50px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #0c0b0b;
+}
+.container .desc .lighter {
+    opacity: 0.6;
+}
+.container .img {
+    width: 30%;
+}
+.container .img i{
+    font-size: 200px;
+    width: 100%;
+    color: #f44336;
+    text-align: center;
+}
+.second {
+    background-color: #f1f1f1;
+}
+.third {
+    width: 100%;
+    text-align: center;
+    padding: 70px;
+    background-color: #808080;
+}
+.third p {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #f1f1f1;
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .container {
+        padding: 60px 80px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        padding: 60px 20px;
+    }
+}
+@media (max-width:768px){
+    .container {
+        padding: 60px 30px;
+        flex-direction: column;
+    }
+    .container div {
+        margin: 25px 0;
+    }
+    .container .desc ,
+    .container .img {
+        width: 100%;
+    }
+}
+@media (max-width:578px){
+    .third p {
+        font-size: 15px;
+    }
+}
+/* =========== Sections =========== */

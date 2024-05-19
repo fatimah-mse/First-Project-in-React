@@ -1,0 +1,22 @@
+/* =========== Footer =========== */
+footer {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer div .icon {
+    font-size: 25px;
+    margin: 0 5px;
+    color: #808080;
+}
+footer div .icon:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+footer div p a {
+    margin-left: 10px;
+    color: #f44336;
+}
+/* =========== Footer =========== */
